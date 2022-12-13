@@ -1,6 +1,7 @@
 // Import your Client Component
-import HomePage from './HomePage';
-
-const Page = async () => <HomePage />;
+import ReactQueryPage from './ReactQueryPage';
+import SwrQueryPage from './SwrPage';
+import ReduxPage from './ReduxPage';
+const Page = async () => <ReduxPage />;
 
 export default Page;
