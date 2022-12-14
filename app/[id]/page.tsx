@@ -37,6 +37,7 @@ export default async function MoviePage({ params: { id } }: Props) {
 
   const movie = await _movie;
   const credits = await _credits;
+
   return (
     <main>
       <Header />

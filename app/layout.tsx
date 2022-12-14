@@ -12,10 +12,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => (
     </head>
     <body className="font-raleway">
       <ReduxWrapper>
-        {/* <SwrQueryWrapper>
-          <ReactQueryWrapper>{children}</ReactQueryWrapper> */}
-        {children}
-        {/* </SwrQueryWrapper> */}
+        <SwrQueryWrapper>
+          <ReactQueryWrapper>{children}</ReactQueryWrapper>
+        </SwrQueryWrapper>
       </ReduxWrapper>
     </body>
   </html>

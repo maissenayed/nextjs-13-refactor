@@ -13,6 +13,7 @@ import Grid from '../components/Grid/Grid';
 import Card from '../components/Card/Card';
 import Spinner from '../components/Spinner/Spinner';
 import { moviesApi } from './../wrappers/ReduxWrapper/store';
+
 const HomePage = () => {
   const [query, setQuery] = React.useState('');
   const [page, setPage] = React.useState(1);
